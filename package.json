@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
+    "jshint": "^2.10.2",
     "tailwindcss": "^1.0"
   },
   "devDependencies": {

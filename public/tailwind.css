@@ -1,3 +1,36 @@
 @tailwind base;
+
+
+
+.custom-number-input input,
+.custom-number-input button,
+.custom-number-input label {
+    -o-transition: .1s;
+    -ms-transition: .1s;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    /* ...and now for the proper property */
+    transition: .1s;
+}
+
+.custom-number-input input:focus {
+    outline: none !important;
+}
+
+.custom-number-input button:focus {
+    outline: none !important;
+}
+
+.custom-number-input:hover label {
+    color: #39404e !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 @tailwind components;
 @tailwind utilities;
